@@ -5,7 +5,6 @@ function CountPage() {
     const dispatch = useDispatch()
     const count = useSelector(state => state.count)
 
-
     const increment = () => {
         dispatch({
             type: "INCREMENT"

@@ -1,0 +1,17 @@
+.App {
+    text-align: center;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+}
+
+.navBar li {
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+.active {
+    color: red;
+}

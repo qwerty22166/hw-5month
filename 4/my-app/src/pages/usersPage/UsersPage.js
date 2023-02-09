@@ -24,6 +24,8 @@ function UsersPage() {
                         <li>
                             <p>name: {user.name}</p>
                             <p>email: {user.email}</p>
+                            <p>website: {user.website}</p>
+                            <p>companyName: {user.company.name}</p>
                             <button value={users.id} onClick={() => dispatch(getOneUserInfo(user.id))}>more info</button>
                             <p>-------------------------------------------------</p>
                         </li>
@@ -37,9 +39,7 @@ function UsersPage() {
                     <ul>
                     <li>name: {user.name}</li>
                     <li>email: {user.email}</li>
-                    <li>website: {user.website}</li>
                     <li>username: {user.username}</li>
-                    <li>companyName: {user.company.name}</li>
                     </ul>
 
 

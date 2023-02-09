@@ -1,7 +1,8 @@
 import {types} from "../types";
 
 const initialState = {
-    users: []
+    users: [],
+    user: {}
 }
 
 export default function usersReducer(state = initialState, action) {

@@ -1,0 +1,38 @@
+.App {
+    text-align: center;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+}
+
+.navBar li {
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+.active {
+    color: red;
+}
+
+.button {
+    padding: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #d1a954;
+    border-color: snow;
+}
+
+.user {
+    background-color: #C2CAD3;
+    padding: 25px;
+    text-transform: capitalize;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.list {
+    padding: 20px;
+    background-color: #296ca8;
+}
